@@ -1,0 +1,164 @@
+body{
+	background:url("images/p4.jpg")no-repeat ;
+	background-size: cover;
+	font-family:Arial;
+	color:white;
+}
+ul{
+	margin:1px;
+	padding:0px;
+	list-style:none;
+	
+  
+}
+ul li {
+	float:left;
+	width:200px;
+	height:50px;
+	background-color: black;
+	opacity:.8;
+	line-height:50px;
+	text-align:center;
+	font-size:16px;
+	margin-right:3px;
+}
+ul li a{
+	text-decoration:none;
+	display:block;
+}
+ul li a:hover{
+	background-color:gray;
+	
+}
+ul li ul li {
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+	
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 9470px;
+  padding: 0 30px;
+
+}
+
+.header {
+  background: url() no-repeat;
+  background-size: ;
+  height: 80px;
+  text-align: center;
+}
+
+.header container {
+  position: center center;
+  top: 200px;
+}
+
+.header h1 {
+  color: white;
+  line-height: 200px;
+  font-size: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 120px;
+  }
+}
+
+.header p {
+  color: black;
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin-bottom: 50px;
+  margin-top: 50;
+  text-transform: uppercase;
+  text-align:center center;
+}
+
+.btn {
+  color: black;
+  background: blue;
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: background .5s;
+}
+
+
+.main .container {
+  margin: 80px auto;
+}
+
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
+
+#logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.school image{
+  background: url(images/about.jpg);
+  float: left;
+  
+}
+
+.school image.container {
+  position: relative;
+  top: 220px;
+}1
+
+.school image h2 {
+  color: #fff;
+  text-align: right;
+}
+
+.school image p {
+  color: #fff;
+  text-align: right;
+}
+
+.school image.btn {
+  margin: 10px 0 0;
+  float: right;
+}
+
+.footer {
+  background: #000;
+  height: 80px;
+  padding-bottom: 50px;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 14px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 100px;
+    line-height: 64px;
+  }
+
+  .main, .school image{
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+  
+}
+
